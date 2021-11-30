@@ -24,15 +24,15 @@ def main():
     ASCII = "═" * NUMBEROFASCII
     FILLINSPACE = " " * NUMBEROFASCII
 
-    print("╔"+ASCII+"╗")
+    print(f"╔{ASCII}╗")
     for x in range(NUMBEROFROWS):
         '''
         NUMBEROFROWS = amount of lines
 
         printing table line x amount of times.
         '''
-        print("║"+FILLINSPACE+"║")
-    print("╚"+ASCII+"╝")
+        print(f"║{FILLINSPACE}║")
+    print(f"╚{ASCII}╝")
 
 if __name__ == "__main__":
     main()
