@@ -6,3 +6,7 @@ Python Version Used: Python 3.8.9
 How to run:
   python main.py
 ```
+
+```Example:```
+
+![Screenshot](pictures/table.png)
